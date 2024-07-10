@@ -1,29 +1,16 @@
 
 
-document.writeln('Hello world');
+//Dichiarazione variabili
+
+let nome = prompt("Qual'è il tuo nome?");
+let cognome = prompt("Qual'è il tuo cognome?");
+let colorePreferito = prompt("Qual'è il tuo colore preferito?");
+let myPassword = nome + cognome + colorePreferito + '130';
 
 
+console.log(myPassword);
+console.log(typeof myPassword);
 
-// fa uscire un pop-up che blocca l'esecuzione della pagina
-alert('Hello world!');
-
-
-
-//prende un elemento dal documento e lo trasforma--js è case sensitive
-document.getElementById('mio_id').innerHTML = 'Hello World 4!';
-
-
-
-//come conservare un dato
-/* 
-variabili: contenitori con un nome e una proprietà/ dato
-i dati della variabile vengono eliminati alla fine dell'esecuzione 
-*/
-
-//Dichiarazione di una variabile
-
-const miaVariabile1 = 'ciao raghi';
-let miaVariabile2;
-var miaVariabile3;
+document.getElementById('mia_pass').innerHTML = myPassword;
 
 
